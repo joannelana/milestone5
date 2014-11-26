@@ -1,0 +1,233 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background-image: url('../img/006-Paper-Kraft.png');
+  background-size:120%;
+
+}
+
+.fixed-width-centered {
+  position:         relative;
+  width:          1000px;
+  margin-left:      -500px;
+  left:         50%;
+}
+
+.header {
+  width:100%;
+  height:20%;
+  /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+.home {
+  width: 100%; 
+  min-height: 70%;
+  /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+.logo {
+  float:left;
+  width:55%;
+  color:#2F5168;
+  font-size: 12px;
+  font-family: arial;
+  margin-top:20px;
+}
+
+.login {
+  float:left;
+  width:45%;
+  color:#2F5168;
+  padding-top: 20px;
+  margin-top:35px;
+  /*margin-bottom: 0px;*/
+/*  margin-top:9px;
+  padding-top: 9px;*/
+}
+
+.input-group {
+  position: relative;
+  float: left;
+  margin-left: 7px;
+}
+
+.input-group-addon-log {
+  float: left;
+  height: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #555555;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-right: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+  padding: 1px 4px 1px 5px;
+  line-height: 20px;
+}
+
+.input-group-addon {
+  float: left;
+  height: 26px;
+  width:20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #555555;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-right: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+  padding: 5px 4px 1px 10px;
+  line-height: 20px;
+}
+
+.input-group-addon-homes {
+  float: left;
+  height: 30px;
+  width:20px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #555555;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-right: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+  padding: 7px 8px 0px 8px;
+  line-height: 20px;
+}
+
+.form-control {
+  float: left;
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+  padding: 1px 0 1px 5px;
+  color: #555555;
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  margin: 0 0 0 0;
+  width: 120px;
+}
+
+.form-control-signup {
+  float: left;
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 4px;
+  padding: 1px 0 1px 5px;
+  color: #555555;
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  margin: 0 0 0 0;
+  width: 210px;
+}
+
+.form-control-homes{
+  float: left;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 3px;
+  padding: 1px 0 1px 5px;
+  color: #555555;
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  margin: 0 8px 0 0;
+  width: 130px;
+}
+
+
+
+.button {
+  display: inline-block;
+  position: relative;
+  background: white;
+  font: 12px Arial;
+  color: black;
+  padding: 0;
+  float: left;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #eee;
+  color: #555;
+  margin-top:0px;
+  height:16px;
+  padding: 3px 6px;
+  margin: 0px 0px 0px 8px;
+}
+
+.button2 {
+  display: inline-block;
+  position: relative;
+  background: white;
+  font: 12px Arial;
+  color: black;
+  padding: 0;
+  float: right;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #eee;
+  color: #555;
+  margin-top:4px;
+}
+
+.footer {
+  margin-bottom:0px;
+  width: 100%;
+  height: 10%;
+  font: 13px Arial;
+  color: white;
+  background-color:#A61024;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  text-align: center;
+  /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+.footer a {
+  color: white;
+  margin-right:8px;
+  font-size:13px;
+}
